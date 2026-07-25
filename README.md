@@ -106,3 +106,44 @@ The dashboard helps analysts correlate events, investigate alerts, and understan
 ## Dashboard Overview
 
 ![Dashboard Overview](dashboard-overview.png)
+
+
+---
+
+# 🚨 Alert Analysis
+
+Wazuh automatically analyzes incoming endpoint telemetry and generates alerts based on predefined detection rules. These alerts help identify suspicious processes, system activities, and potential security incidents.
+
+The alerts are grouped by severity, rule groups, and event categories, enabling efficient investigation and prioritization.
+
+## Alerts Dashboard
+
+![Alerts Dashboard](alerts-dashboard.png)
+
+---
+
+## Top Alerts and Rule Groups
+
+![Top Alerts and Rule Groups](top-alerts-and-rule-groups.png)
+
+---
+
+## Alert Groups and Timeline
+
+![Alert Groups and Timeline](alert-groups-and-timeline.png)
+
+---
+
+# 🔎 Event Investigation
+
+Each alert can be investigated in detail through the Wazuh Threat Hunting interface. Analysts can inspect process information, event timestamps, rule descriptions, MITRE ATT&CK mappings, and additional telemetry to understand the root cause of an alert.
+
+## Suspicious Process Events
+
+![Suspicious Process Events](suspicious-process-events.png)
+
+---
+
+## Event Details
+
+![Event Details](event-details.png)
