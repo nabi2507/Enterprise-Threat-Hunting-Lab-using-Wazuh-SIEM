@@ -46,3 +46,29 @@ This project demonstrates how to build a Security Operations Center (SOC) lab us
 | OpenSearch Dashboards | Alert Visualization |
 | Windows Event Logs | Security Event Collection |
 | MITRE ATT&CK | Threat Classification |
+
+# 🖥️ Windows Endpoint
+
+The Windows 11 Enterprise virtual machine acts as the monitored endpoint in this lab. It generates Windows Event Logs and Sysmon telemetry, which are collected by the Wazuh Agent and forwarded to the Wazuh Server for analysis.
+
+## Windows Desktop
+
+![Windows Desktop](windows-desktop.png)
+
+---
+
+## System Information
+
+![System Information](system-information.png)
+
+---
+
+## Network Configuration
+
+![Network Configuration](network-configuration.png)
+
+---
+
+## Running Processes
+
+![Running Processes](running-processes.png)
