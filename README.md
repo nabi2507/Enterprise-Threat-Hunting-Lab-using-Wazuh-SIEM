@@ -147,3 +147,89 @@ Each alert can be investigated in detail through the Wazuh Threat Hunting interf
 ## Event Details
 
 ![Event Details](event-details.png)
+
+---
+
+# 🎯 MITRE ATT&CK Mapping
+
+Wazuh maps detected activities to the MITRE ATT&CK framework, helping security analysts understand attacker techniques and tactics. This provides valuable context during investigations and improves incident response.
+
+The framework categorizes observed behaviors into standardized attack techniques, making it easier to identify potential threats.
+
+## MITRE ATT&CK Overview
+
+![MITRE ATT&CK](dashboard-overview.png)
+---
+
+# 🛡️ Vulnerability Assessment
+
+Wazuh continuously scans the monitored endpoint for known software vulnerabilities and displays their severity. This helps security teams identify outdated software and prioritize remediation efforts.
+
+## Vulnerability Summary
+
+![Vulnerability Summary](vulnerability-summary.png)
+
+---
+
+## Vulnerability Severity
+
+![Vulnerability Severity](vulnerability-severity.png)
+
+---
+
+# ⚙️ Security Configuration Assessment
+
+Wazuh evaluates the Windows endpoint against security best practices and compliance benchmarks. The Security Configuration Assessment (SCA) module identifies configuration weaknesses and highlights areas that require attention.
+
+## Security Configuration
+
+![Security Configuration](security-configuration.png)
+
+---
+
+# 🖥️ Wazuh Server
+
+The Wazuh Server acts as the central component of the lab, responsible for receiving endpoint telemetry, processing security events, storing indexed data, and serving dashboards through OpenSearch.
+
+The server consists of:
+
+- Wazuh Manager
+- Wazuh Indexer
+- OpenSearch Dashboards
+
+## Wazuh Server Status
+
+![Wazuh Server](wazuh_server.png)
+
+# 📚 Key Learnings
+
+Through this project, I gained practical experience in:
+
+- Deploying and configuring Wazuh SIEM
+- Integrating Windows endpoints using the Wazuh Agent
+- Collecting and analyzing Sysmon telemetry
+- Investigating Windows security events
+- Performing threat hunting using Wazuh dashboards
+- Understanding MITRE ATT&CK mappings
+- Reviewing endpoint vulnerabilities
+- Assessing Windows security configurations
+
+  ---
+
+# 🚀 Future Improvements
+
+Potential enhancements for this lab include:
+
+- Integrating additional Windows and Linux endpoints
+- Simulating common attack techniques using Atomic Red Team
+- Creating custom Wazuh detection rules
+- Configuring email or Slack alert notifications
+- Building custom dashboards for threat hunting
+- Integrating threat intelligence feeds
+
+  # 👤 Author
+
+**Nabila S**
+
+Aspiring SOC Analyst | Cybersecurity Enthusiast
+LinkedIn: https://www.linkedin.com/in/nabila-s-587b74305
