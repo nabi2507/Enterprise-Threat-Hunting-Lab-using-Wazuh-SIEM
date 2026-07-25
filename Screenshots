@@ -1,0 +1,14 @@
+## Environment Setup
+![Windows](screenshots/01-environment/windows-desktop.png)
+
+![System Info](screenshots/01-environment/system-information.png)
+
+## Endpoint Registration
+
+![Endpoint](screenshots/02-endpoint-registration/endpoint-overview.png)
+
+## Threat Hunting Dashboard
+
+![Dashboard](screenshots/03-threat-hunting-dashboard/dashboard-overview.png)
+
+![MITRE](screenshots/03-threat-hunting-dashboard/mitre-compliance.png)
